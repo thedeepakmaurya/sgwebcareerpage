@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main {
+    background: url("./assets/img/blob.svg");
+    background-repeat: no-repeat;
+    background-size:contain ;
+    width: 100%;
+    padding: 10%;
+}
+
+
+#career-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.career-head {
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: 0.5em;
+}
+
+.career-desc {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+#career-cards {
+    width: 100%;
+    padding-top: 6em;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2.5em;
+}
+
+.card {
+    width: 100%;
+    border: 1px solid black;
+    padding: 3%;
+    box-shadow: 10px 10px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 0.6em;
+}
+
+.card-title a {
+    font-size: 0.6em;
+}
+
+.card-desc {
+    padding-bottom: 0.8em;
+    font-weight: bold;
+}
+
+.card-details {
+    display: flex;
+    gap: 2%;
+}
+
+.card-btn {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 0.4em 0.8em;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px) {
+    .career-head {
+        font-size: 3em;
+    }
+
+    .career-desc {
+        font-size: 1em;
+    }
+
+    #career-cards{
+        padding-top: 4em !important;
+    }
+}
