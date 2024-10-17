@@ -13,6 +13,14 @@
     height: auto;
 }
 
+.cmt-toggle:focus{
+    outline: 0;
+}
+
+.toggle-item{
+    padding: 0 4%;
+}
+
 .custom-nav-item{
     font-size: 1.em !important;
     font-weight: 500;
