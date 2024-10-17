@@ -88,6 +88,11 @@ a {
 
 
 @media screen and (max-width: 600px) {
+
+    #main{
+        padding: 8%;
+    }
+
     .career-head {
         font-size: 3em;
     }
