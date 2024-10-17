@@ -91,6 +91,9 @@ a {
 
     #main{
         padding: 8%;
+        background: url("./assets/img/blob-mobile.svg");
+        background-repeat: no-repeat;
+        background-size:contain ;    
     }
 
     .career-head {
